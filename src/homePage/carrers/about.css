@@ -1,0 +1,226 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logodiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+.logodiv p{
+    letter-spacing: 5px;
+    margin-left: 75px;
+}
+nav{
+    margin-right: 50px;
+}
+
+.explore{
+    color: rgb(9, 56, 44);
+    padding-top: 15vh;
+    padding-left: 5vh;
+    font-size: 10vh;
+    
+}
+
+.book{
+    text-decoration: none;
+    font-size: 5vh;
+        color: rgb(37, 6, 122);
+        height: 17vh;
+        padding: 1.6vh;
+        padding-bottom: 1vh;
+        width: 10vh;
+        border-radius: 10vh;
+        cursor: pointer;
+        margin-right: 3vh;
+        transition:1s;
+    }
+    .book:hover{
+        background-color: rgb(66, 230, 61);
+        color: white;
+    }
+    .book:active{
+        opacity: 0.4;
+    }
+.ready{
+    padding-top: 5vh;
+    margin-left:5vh ;
+    font-display:inherit;
+    color:rgb(0, 90, 12);
+    text-shadow: 1px 1px cornflowerblue;
+}
+.Account{
+    text-decoration: none;
+    color: black;
+    font-size: 3vh;
+    height: 2vh;
+    background-color:  rgb(41, 211, 78);;
+        border-color: rgb(41, 211, 78);
+        border-style: solid;
+        border-width: 1px;
+        color: white;
+        height: 17vh;
+        padding: 1.6vh;
+        width: 2vh;
+        border-radius: 10vh;
+        cursor: pointer;
+        margin-right: 3vh;
+}
+.login:hover{
+    box-shadow: 2px;
+    
+}
+.signup{
+    text-decoration: none;
+    color: black;
+    padding: 1.6vh;
+    font-size: 3vh;
+    margin-top: none;
+    background-color:  rgb(41, 211, 78);;
+        border-color: rgb(41, 211, 78);
+        border-style: solid;
+        border-width: 1px;
+        color: white;
+        height: 17vh;
+        width: 2vh;
+        border-radius: 10vh;
+        cursor: pointer;
+        margin-right: 3vh;
+}
+.logo{
+    height: 14vh;
+    padding-left: 13vh;
+}
+
+.Avaition{
+    text-decoration: none;
+    color: black;
+    padding-left: 1vh;
+    font-size: 3vh;
+    margin-top: none;
+    background-color:  rgb(41, 211, 78);;
+        border-color: rgb(41, 211, 78);
+        border-style: solid;
+        border-width: 1px;
+        color: white;
+        height: 17vh;
+        padding-top: 1vh;
+        padding-right: 1vh;
+        padding-bottom: 1vh;
+        width: 2vh;
+        border-radius: 10vh;
+        cursor: pointer;
+        margin-right: 3vh;
+}
+.Loyalty{
+    text-decoration: none;
+    color: black;
+    padding: 1.6vh;
+    font-size: 3vh;
+    margin-top: none;
+    background-color:  rgb(41, 211, 78);;
+        border-color: rgb(41, 211, 78);
+        border-style: solid;
+        border-width: 1px;
+        color: white;
+        height: 17vh;
+       
+        width: 2vh;
+        border-radius: 10vh;
+        cursor: pointer;
+        margin-right: 3vh;
+}
+.plan{
+    text-decoration: none;
+    color: black;
+    padding-left: 1vh;
+    font-size: 3vh;
+    margin-top: none;
+    background-color:  rgb(41, 211, 78);;
+        border-color: rgb(41, 211, 78);
+        border-style: solid;
+        border-width: 1px;
+        color: white;
+        height: 17vh;
+        padding-top: 1vh;
+        padding-right: 1vh;
+        padding-bottom: 1vh;
+        width: 2vh;
+        border-radius: 10vh;
+        cursor: pointer;
+        margin-right: 3vh;
+}
+.Contact{
+    text-decoration: none;
+    color: black;
+    padding-left: 1vh;
+    font-size: 3vh;
+    margin-top: none;
+    background-color:  rgb(41, 211, 78);;
+        border-color: rgb(41, 211, 78);
+        border-style: solid;
+        border-width: 1px;
+        color: white;
+        height: 17vh;
+        padding-top: 1vh;
+        padding-right: 1vh;
+        padding-bottom: 1vh;
+        width: 2vh;
+        border-radius: 10vh;
+        cursor: pointer;
+       
+}
+  .img-container{
+  float: left;
+  text-align: center;
+  width: 28%;
+  padding:30px;
+  margin: 10px solid;
+  }
+  
+  
+  div ,#information ,p{
+  background-image:url('C:\Users\D\Desktop\airline\-5988069676854394110_121.jpg');
+  }
+  .img-container a{
+    text-decoration: none;
+    color: white;
+  background-color: green;
+ 
+  padding:0 17px 0 17px;
+  
+  }
+  
+  #results{
+  background-image: url('./IMG_20230521_185902_114.jpg');
+  }
+
+  
+      
+  
+  @media only screen and (max-width: 800px) {
+    nav{
+      display:flex;
+      flex-direction: column;
+      justify-content: space-between;
+      
+      width:400px;
+      height:300px;
+    }
+    .plan, .signup, .Avaition, .Contact, .Account{
+      padding:17px;
+      width:200px;
+      height:25px;
+    }
+
+    header{
+      
+        padding-right: 150px;
+    }
+     }

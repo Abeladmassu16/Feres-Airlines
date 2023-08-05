@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>Payment Page</title>
+ <link rel="stylesheet" href="pay.css">
+</head>
+<body>
+    
+
+                
+    <div class="payment-container">
+        <h1>Payment</h1>
+        <form action="#">
+         <label for="name">Name :</label>
+         <input type="text" id="name" name="name" required>
+         <label for="number">CBE OR TELEBIRR Number:</label>
+         <input type="number" id="number" name="number"option>
+         <label for="pass" >PASSWORD  (must includ '@')</label>
+         <input type="password" id="pass" name="pass" title="Invalid Postal Code." 
+         pattern="^[A-Z,a-z]\d[A-Z,a-z][\s{1}]?\d[A-Z,a-z]\d" >
+         
+      
+         <div class="payment-options">
+          <label for="cbe">
+           <input type="radio" id="cbe" name="option" checked>
+           CBE
+          </label>
+          <label for="tele">
+           <input type="radio" id="tele" name="option">
+           TELEBIRR
+          </label>
+         </div>
+      
+         <button type="submit" id="btn">Pay Now</button>
+        </form>
+       </div>
+
+       <script src="./pay.js"></script>
+</body>
+</html>

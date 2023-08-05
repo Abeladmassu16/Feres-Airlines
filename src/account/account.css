@@ -1,0 +1,74 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(214, 204, 204);
+}
+.b1{
+    margin: 70px 50px;
+}
+.form{
+    width:fit-content;
+    background-color:rgb(228, 217, 198);
+    box-shadow: 8px 8px 19px black;
+    padding: 15px 15px 20px 15px;
+    
+}
+fieldset{
+    border: none;
+    border-top: 1px solid black;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 350px;
+    width: 300px;
+    flex-direction: column;
+    gap: 35px;
+    border-radius: 15px;
+    width: 35em;
+    background: #00010024;
+    box-shadow: 8px 6px 5px #8d8d9833,
+          -10px -6px 22px #8d8d9833;
+    border-radius: 8px;
+    position: absolute;
+    top: 1em;
+    left: 24em;
+}
+.fname{
+    color: rgb(0, 90, 12);;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 1.5em;  
+}
+input{
+    padding: 8px 0;
+    border-radius: 8px;
+    margin: 0 10px 20px 10px;
+}
+.Address{
+    margin-top: 20px;
+}
+.changesignup{
+    
+    height:100px;
+    background-color:yellow;
+}
+
+.pass,.llogin{
+    background-color: khaki;
+    margin-left: 8px;;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    
+}
+.llogin:hover,.pass:hover{
+    box-shadow: 8px 8px 9px grey ;
+    cursor: pointer;
+}

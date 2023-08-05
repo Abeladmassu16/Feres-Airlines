@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+}
+header{
+    width: 100%;
+    background: url(banner-desktop.jpg) no-repeat center center;
+    height: 12em;
+    background-size:cover ;
+}
+header h1{
+    margin-left: 4em;
+    padding-top:2em ;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+header p{
+    margin-left: 4em;
+    color: white;
+}
+main img{
+    float: left;
+    margin-left: 6em;
+    margin-top: 2em;
+}
+.Airport{
+    margin-top: 2em;
+    float: left;
+}
+main .p1{
+    position: absolute;
+     top: 18em;
+    left: 22%;
+    width: 55%;
+    float: none;
+}
+.p2{
+    position: absolute;
+    top: 23em;
+    left: 25em;
+    width: 55%;
+}
+.h2{
+    position: absolute;
+    top: 19em;
+    left: 16em;
+    width: 55%;
+}
+.p3{
+    position: absolute;
+    top: 32em;
+    left: 25em;
+    width: 55%;
+
+}
+.p4{
+    position: absolute;
+    top: 37em;
+    left: 25em;
+    width: 55%;
+}
+.hh2{
+    float: none;
+    position: absolute;
+    top: 27em;
+    left: 16em;
+}   
+.list1{
+    position: absolute;
+    top: 43em;
+    left: 28em;
+    width: 55%;
+} 
+.hh3{
+    position: absolute;
+    left: 16em;
+    top: 35em;
+}
+    .div1{
+        border: dotted ,em;
+        border-top: 1px;
+        border: solid 2px;
+    }
+
+div img{
+    position: absolute;
+    left: 1em;
+    top: 40em;
+}
+.p5{
+    position:absolute;
+    top: 56em;
+    width: 55%;
+    left: 26em;
+}
+.hh4{
+    position: absolute;
+    top: 40em;
+    left: 16em;
+
+}
+.p6{
+    position:absolute ;
+    top: 63em;
+    left: 26em;
+    width: 55%;
+}
+.p7{
+    position:absolute ;
+    top: 68em;
+    left: 26em;
+    width: 55%;
+}
+.p8{
+    position:absolute ;
+    top: 48em;
+    left: 16em;
+    width: 55%;
+}
+.order{
+    position:absolute ;
+    top: 75em;
+    left: 23em;
+    width: 55%;
+}
+.div2{
+    position:absolute ;
+    top: 57em;
+   
+    width: 65%;
+}
+
+.p9{
+    position:absolute ;
+    top: 125em;
+    left: 25em;
+    width: 55%;
+
+}
+table{
+    position:absolute ;
+    top: 64em;
+    left: 27em;
+    width: 55%;
+}
+
