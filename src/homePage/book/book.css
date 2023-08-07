@@ -169,20 +169,28 @@ nav{
 
 .container{
     height: 100vh;
-   background: url("./img/_105910420_ethiopianairlines.jpg") no-repeat ;
+   background: url("/src/homePage/book/background.jpg") no-repeat ;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     gap:120px;
 }
-.left{
-    
+.container p{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 39px;
+    color: aquamarine;
+}
+.container h1{
+    font-family: Georgia, serif;
+    margin: 10px 20px;
 }
 
 form{
-
-    background-color:rgb(130, 131, 132);
+    margin-left: 140px;
+    background-color:transparent;
+    backdrop-filter:blur(20px);
+    border: 3px solid rgba(255, 255, 255, 0.362);
     color: rgb(3, 46, 83);
     font-weight: bold;
     width:500px;
@@ -194,22 +202,13 @@ form{
     gap:5px;
     opacity: 0.8;
 }
-form h1{
-    color: rgb(137, 248, 248);
-    text-align: center;
-   
-}
-form p{
-    font-weight: bold;
-    font-size: 24px;
-    font-style: Comic ;
-    color:rgb(137, 248, 248);
-    text-align: center;
-}
+
 input{
     padding: 15px;
     width:400px;
     border-radius: 8px;
+    text-transform:uppercase;
+    font-weight: bold;
 }
 input:hover {
     box-shadow: rgba(45, 35, 66, 0.3) 0 4px 8px, rgba(45, 35, 66, 0.2) 0 7px 13px -3px,transparent -12 -12px 0 inset;
@@ -220,11 +219,12 @@ button{
     padding: 13px 0px;
     align-content: center;
     font-size: 18px;
+    border-radius: 30px;
 
 }
 button:hover{
     cursor: pointer;
-    background-color: black;
+    background-color:rgb(17, 81, 41);
     color: white;
 }
 .radios{
@@ -232,9 +232,12 @@ button:hover{
     width:300px;
     margin-bottom: 10px;
     font-size: 20px;
+    margin-left: 20px;
 }
 
-
+.class{
+   color: green;
+}
 
       footer{
         display:flex;

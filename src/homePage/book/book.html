@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" type="img" href="/src/homePage/images/360_F_159634840_Fa2HPb8ITrbr5gddY2eKlomVfsnu1gx6-removebg-preview.png">
     <link rel="icon" type="img" href="et-logo-removebg-preview (2).png">
     <title>Book Flight</title>
@@ -17,12 +18,12 @@
 
     <div class="container">
      <div class="left">
-       
+      <h1>BOOK YOUR FLIGHT TODAY</h1>
+      <p>book and expirence the best here at ferese airline <br> with our team and wonderfull crue </p>
      </div>
 
      <form action="./payment/payment.html">
-      <h1>BOOK YOUR FLIGHT TODAY</h1>
-      <p>book and expirence the best here at ferese airline <br> with our team and wonderfull crue </p>
+      
         <div class="radios">
       <input type="radio" id="private" name="fav_language" >
 <label for="private">Private</label><br>
@@ -30,11 +31,11 @@
 <label for="roadTrip">RoadTrip</label><br>
 </div>
 
-      <label for="from">FLIGING FROM</label>
-      <input type="text" id="from" required>
+      <label for="from">FLIGING FROM <i class="fa fa-plane" style="font-size:20px;color:green"></i></label>
+      <input type="text" placeholder="addis abeba,ethiopia" id="from" required>
      
-      <label for="to">FLIGING TO</label>
-      <input type="text" id="to" required>
+      <label for="to">FLIGING TO <i class="fa fa-plane" style="font-size:20px;color:green"></i></label>
+      <input type="text" id="to" placeholder="fill your destination" required>
 
       <label for="departing">DEPARTING</label>
       <input type="date" id="departing" required>
@@ -48,7 +49,7 @@
       <label for="class">CHOOSE CLASS:</label>
   <select id="class" name="class">
     <option value="prem">PREMIUM</option>
-    <option value="econ">ECONOMY</option>
+    <option value="econ" selected>ECONOMY</option>
     <option value="buis">BUISNESS</option>
 
   </select>
