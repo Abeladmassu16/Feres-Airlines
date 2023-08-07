@@ -10,163 +10,116 @@ html{
     background-repeat: no-repeat;
   
   }
-  .container{
-    position: absolute;
-    top: 10em;
-    left: 24em;
-    font-size: larger;
-   
-    
-  }
-  .singup {
-    color: #f5ecec;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    display: block;
-    font-weight: bold;
-    font-size: x-large;
-    
-  }
-  .card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 350px;
-    width: 300px;
-    flex-direction: column;
-    gap: 35px;
-    border-radius: 15px;
-    width: 35em;
-    background: #00010024;
-    box-shadow: 8px 6px 5px #8d8d9833,
-          -10px -6px 22px #8d8d9833;
-    border-radius: 8px;
-  }
-  .inputBox,
-  .inputBox1 {
-    position: relative;
-    width: 250px;
-  }
-  .inputBox input,
-  .inputBox1 input {
-    width: 100%;
-    padding: 10px;
-    outline: none;
-    border: none;
-    color:#f5ecec;
-    font-size: 1em;
+  .wrapper{
+    width: 720px;
+    height: 610px;
     background: transparent;
-    border-left: 2px solid #000;
-    border-bottom: 2px solid #000;
-    transition: 0.1s;
-    border-bottom-left-radius: 8px;
-  }
-  .inputBox span,
-  .inputBox1 span {
-    margin-top: 5px;
-    position: absolute;
-    left: 0;
-    transform: translateY(-4px);
-    margin-left: 10px;
-    padding: 10px;
-    pointer-events: none;
-    font-size: 12px;
-    color: #e3dada;
-    text-transform: uppercase;
-    transition: 0.5s;
-    letter-spacing: 3px;
-    border-radius: 8px;
-  }
-  .inputBox input:valid~span,
-  .inputBox input:focus~span {
-    transform: translateX(113px) translateY(-15px);
-    font-size: 0.8em;
-    padding: 5px 10px;
-    background: #000;
-    letter-spacing: 0.2em;
-    color: #fff;
-    border: 2px;
-  }
-  .inputBox1 input:valid~span,
-  .inputBox1 input:focus~span {
-    transform: translateX(156px) translateY(-15px);
-    font-size: 0.8em;
-    padding: 5px 10px;
-    background: #000;
-    letter-spacing: 0.2em;
-    color: #fff;
-    border: 2px;
-  }
-  .inputBox input:valid,
-  .inputBox input:focus,
-  .inputBox1 input:valid,
-  .inputBox1 input:focus {
-    border: 2px solid #948c8c;
-    border-radius: 8px;
-  }
-  .enter {
+    border: 3px solid rgba(255, 255, 255, 0.362);
+    color: white;
+    border-radius: 10px;
+    padding:30px 40px;
     align-items: center;
-    appearance: none;
-    background: #000;
-    letter-spacing: 0.2em;
-    color: #fff;
-    border-radius: 4px;
-    border-width: 0;
-    box-shadow: rgba(45, 35, 66, 0.2) 0 2px 4px,rgba(45, 35, 66, 0.15) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
-    box-sizing: border-box;
-    color: #36395A;
-    cursor: pointer;
-    display: inline-flex;
-    font-family: "JetBrains Mono",monospace;
-    height: 48px;
-    justify-content: center;
-    line-height: 1;
-    list-style: none;
-    overflow: hidden;
-    padding-left: 16px;
-    padding-right: 16px;
+    margin-left: 320px;
+    margin-top: 30px;
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+.wrapper .input-box{
     position: relative;
-    text-align: left;
-    text-decoration: none;
-    transition: box-shadow .15s,transform .15s;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    white-space: nowrap;
-    will-change: box-shadow,transform;
-    font-size: 18px;
-  
-   }
-   
-   .enter:focus {
-    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
-   }
-   
-   .enter:hover {
-    box-shadow: rgba(45, 35, 66, 0.3) 0 4px 8px, rgba(45, 35, 66, 0.2) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
-    transform: translateY(-2px);
-    color: white
-   }
-   
-   .enter:active {
-    box-shadow: #D6D6E7 0 3px 7px inset;
-    transform: translateY(2px);
-   }
-   .have{
-      color:white
-   }
-   #country{
-      background-color: black;
-      color: white;
-      box-sizing: 10px;
-      
-   }
-  .gender{
-    color:#f5ecec;
-    font-size: 1em;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 3em;
-    font-family: Arial;
+    width: 80%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-box input{
+    width: 100%;
+    height: 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border:3px solid rgba(255,255,255, .362) ;
+    backdrop-filter:blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0, .2) ;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px 20px 20px ;
+    margin-bottom: 10px;
     
-  }
+}
+.link{
+    margin-left: 140px;
+}
+.link-1{
+    cursor: pointer;
+}
+
+.input-box input::placeholder{
+    color: white;
+}
+.box{
+    width: 20px;
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+a{
+    color: rgba(52, 232, 32, 0.993);
+}
+.wrapper .remember-forget{
+    display: flex;
+    flex-direction: row;
+    font-size: 14.5px;
+    margin: -15px 5 15px;
+
+}
+.remember-forget label input{
+    accent-color: #fff;
+    margin-right: 30px;
+
+}
+.remember-forget :hover{
+    text-decoration:underline ;
+}
+.wrapper .btn{
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.wrapper .btn:hover{
+    background-color: rgb(30, 30, 53);
+}
+.wrapper .register-link{
+    color: #fff;
+    text-align: center;
+    margin: 20px 0 15px;
+
+}
+.register-link p {
+    color:#fff;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.register-link p s :hover{
+    text-decoration: underline;
+
+}
+.user{
+    width: 30px;
+    
+}
