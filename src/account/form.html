@@ -29,18 +29,20 @@
         </div>
 
         <div class="input-box"> 
-            <input type="password" placeholder="enter your password"   id="myInput" required > 
+            <input type="password" placeholder="enter your password"   id="myInput" required name="pass"> 
             <i class="far fa-eye" id="togglePassword" style="margin-left: -30px; cursor: pointer;" onclick="myFunction()"></i>
         </div>
         <div class="input-box"> 
-            <input type="password" placeholder="Re-enter your password"   id="myInput1" required name="pass"> 
+            <input type="password" placeholder="Re-enter your password"   id="myInput1" required name="confirm_pass"> 
             <i class="far fa-eye" id="togglePassword" style="margin-left: -30px; cursor: pointer;" onclick="myFunction1()"></i>
         </div>
+        <div id="password-feedback"></div>
             <input type="submit" class="btn" value="submit" name="">
             <div class="register-link">
                 <p>already have an account? <a class="link-1" href="/src/account/login.html">Login</a></p>
             </div>
-        <script src="/src/account/show.js"></script>
+        <script src="/Airlines/src/account/show.js"></script>
+        <script src="/Airlines/src/account/sign.js"></script>
     </form>
 </div>
 </body>

@@ -123,3 +123,8 @@ a{
     width: 30px;
     
 }
+#password-feedback{
+    margin: 20px;
+    font-weight: bold;
+   
+}
